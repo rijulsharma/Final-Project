@@ -1,0 +1,87 @@
+.card-popup-container {
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 43%; 
+    height: 58%; 
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    
+  }
+  .card-popup-container-content p{
+    font-family: 'Inter', sans-serif;
+  }
+  .asterisk{
+    color: #FF0000;
+  }
+.priority-select{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.priority{
+    display: flex;
+    justify-content: space-evenly;
+    border: #E2E2E2 solid 1px;
+    border-radius: 8px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #767575;
+    width: 30%;
+    
+    margin-right: 20px;
+    
+    
+}
+
+.priority p{
+    font-size: 14px;
+    margin-left: 2%;
+}
+.bullet-point{
+    color: #FF2473;
+    font-size: 200%;
+    margin-right: 2%;
+}
+.bullet-point.m{
+    color: #18B0FF;
+}
+.bullet-point.l{
+color: #63C05B;
+}
+.buttons{
+    margin-bottom: 0;
+}
+.add-task-btn{
+    background-color: transparent;
+    color: #767575;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.select-date-btn{
+    border: #E2E2E2 1px solid;
+    background-color: transparent;
+    border-radius: 12px;
+    color: #707070;
+    cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    border-radius: 12px;
+    border: #CF3636 1px solid;
+    color: #CF3636;
+    cursor: pointer;
+}
+.btn.save{
+    border: none;
+    background-color: #17A2B8;
+    color: white;
+}

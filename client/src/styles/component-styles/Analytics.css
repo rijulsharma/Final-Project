@@ -1,0 +1,50 @@
+.analytics{
+    width: 100%;
+    height: 100%;
+}
+.an-content{
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.an-list ul{
+    background-color: #F9FCFF;
+    border-radius: 12px;
+    min-width: 400px;
+    margin-right: 20px;
+    min-height: 200px;
+    list-style-type: circle;
+    padding: 0;
+    
+}
+
+/* .an-list li{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    font-size: medium;
+    
+    
+} */
+
+.an-list ul li {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  */
+    /* margin-right: 10%; */
+    font-size: medium;
+    /* padding: 8px 16px;  */
+}
+
+.an-list ul li p {
+    margin: 0; /* Remove default margin */
+}
+
+.an-list ul li::before {
+    content: "•"; /* Add custom bullet */
+    color: #90C4CC; /* Set bullet color */
+    font-size: larger; /* Adjust bullet size if needed */
+    margin-right: 0px; /* Add spacing between bullet and text */
+}

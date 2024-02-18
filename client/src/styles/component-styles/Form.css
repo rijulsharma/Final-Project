@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20%;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+.form h1{    
+    color: #343434;
+    
+}
+.form p {
+    color: #828282;
+    margin-top: 8%;
+
+}
+.reg-button{
+    border: 1px solid #17A2B8; 
+    border-radius: 55.13px; 
+    background-color: transparent;
+    color:  #17A2B8;
+    width: 100%;
+    height: 40px;
+    margin-top: 5%;
+    cursor: pointer;
+    text-decoration: none; 
+    display: flex; 
+   align-items: center !important;
+   justify-content: center;
+
+}
+.reg-button.login{
+    background-color: #17A2B8 ;
+    color: white ;
+}

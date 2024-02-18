@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+}
+.auth-main {
+    display: flex;
+    min-height: 100vh;
+  }
+
+
+.main-left {
+    background-color: #17A2B8;
+    color: white;
+    min-height: 100%;
+    width: 60%;
+    bottom: 0%;
+    text-align: center;
+    /* position: relative; */
+  }
+  
+  
+.main-right{
+    min-height: 100%;
+    width: 40%;
+    background-color: white;
+    
+}
+
+/* .character-image{
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    
+}
+.circle-image{
+    top: 90%;
+    left: 35%;
+    position: absolute;
+} */
